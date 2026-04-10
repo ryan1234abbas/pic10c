@@ -1,0 +1,12 @@
+#include<iostream>
+
+int main(){
+  std::cout << "Hello"<<endl;
+    return 0;
+s}
+std::cout << "Helloq" << std::endl;
+  return 0;
+}
+Hello my n" << std::endl;
+  return 0;
+}

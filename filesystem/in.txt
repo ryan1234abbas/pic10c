@@ -1,0 +1,3 @@
+line1 of in.txt
+line2 says something a little different
+line3 is the last line
