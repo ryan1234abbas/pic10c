@@ -1,23 +1,20 @@
 #include<iostream>
 #include<fstream>
 #include<utility>
+#include<set>
 #include<unordered_set>
 #include<iterator>
 
-int main(int argc, const char* argv[]){
+int main(){
+    std::set<double> num;
+    num.insert(4);
+    num.insert(3);
+    num.insert(1);
 
-  if(argc != 3){
-    std::cerr << "Error, less than len 3";
-    return 1;
-  }
-  else{
-    std::string fileName = argv[1];
-    std::string content = argv[2];
+    for(auto pos = num.begin(); pos != num.end(); ++pos){
+      std::cout << *pos << " ";
+    }
 
-    std::ofstream out(fileName);
-    out << content;
-    return 0;
-  }
-  
+  return 0;
 }
 
